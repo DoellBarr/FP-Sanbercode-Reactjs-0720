@@ -5,7 +5,6 @@ import "./Movies.css"
 
 // Material-Ui Component
 import {Button, 
-        Icon,
         Table,
         TableBody,
         TableCell,
@@ -15,7 +14,7 @@ import {Button,
         Link,
         Paper} from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-import {Delete, Create, SendRounded} from '@material-ui/icons'
+import {Delete, Create} from '@material-ui/icons'
 
 
   const preventDefault = (event) => event.preventDefault();
