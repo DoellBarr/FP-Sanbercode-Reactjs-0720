@@ -179,7 +179,7 @@ const Games = () => {
     const handleDelete = () => {  
       let newGames = games.filter(el => el.id != itemId)
   
-      axios.delete(`https://www.backendexample.sanbersy.com/api/games/${itemId}`)
+      axios.delete(`https://backendexample.sanbersy.com/api/data-game/${itemId}`)
       .then(res => {
         console.log(res)
       })

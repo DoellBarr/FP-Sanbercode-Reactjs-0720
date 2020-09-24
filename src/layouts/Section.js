@@ -7,7 +7,8 @@ import {
 
 import Home from "../pages/Home"
 import About from "../pages/About"
-import Movie from "../pages/Movie"
+// import Movie from "../pages/Movie"
+import Movieh from '../pages/Movieh'
 import Game from "../pages/Game"
 import Movies from "../pages/Movies"
 import Games from "../pages/Games"
@@ -40,7 +41,7 @@ const Section = () =>{
       <Switch>
         <Route exact path="/" user={user} component={Home}/>
         <Route exact path="/about" user={user} component={About}/>
-        <Route exact path="/movie" user={user} component={Movie}/>
+        <Route exact path="/movieh" user={user} component={Movieh}/>
         <Route exact path="/game" user={user} component={Game}/>
         <Route exact path='/movie_review' user={user} component={MovieReview}/>
         <Route exact path='/register' user={user} component={Register}/>

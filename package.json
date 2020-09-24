@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
+    "@material-ui/data-grid": "^4.0.0-alpha.2",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.56",
     "@testing-library/jest-dom": "^4.2.4",
@@ -11,6 +12,10 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "clsx": "^1.1.1",
+    "data-grid": "^3.0.0",
+    "faker": "^5.1.0",
+    "gridjs": "^1.17.0",
+    "gridjs-react": "^1.16.0",
     "material-table": "^1.68.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

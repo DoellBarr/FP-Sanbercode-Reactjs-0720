@@ -184,7 +184,7 @@ export default function PersistentDrawerLeft() {
           </ListItemIcon>
           <ListItemText primary="About" />
         </ListItemLink>
-        <ListItemLink href = "/movie">
+        <ListItemLink href = "/movieh">
           <ListItemIcon>
             <ListRounded />
           </ListItemIcon>

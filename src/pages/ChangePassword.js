@@ -1,7 +1,6 @@
 import React, {useState, } from 'react'
-import axios from 'axios'
 
-import {Paper, Typography, Button , Container, TextField} from '@material-ui/core'
+import {Paper, Typography, Container, TextField} from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 
 
@@ -9,7 +8,7 @@ import {makeStyles} from '@material-ui/core/styles'
 const ChangePassword = () => {
 
 	const [password, setPassword]									= useState('')
-	const [errorPassword, setErrorPassword]				= useState('')
+	const [, setErrorPassword]				= useState('')
 	const [confirmPassword, setConfirmPassword] 	= useState('')
 
 	const handleChange = (event) => {
